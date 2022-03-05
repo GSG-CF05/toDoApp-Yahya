@@ -31,12 +31,12 @@ function showTask() {
   let styleList = "";
   arr.forEach((element, index) => {
     styleList += `<li>
-                  <p>${element}</p>
-                  <span>
-                    <button class="button-edit" onclick="editItem(${index})"><img src="./icon/edit-svgrepo-com.svg"></img></button>
-                    <button class="button-delete" onclick="deleteItem(${index})"><img src="./icon/delete.svg"></img></button>
-                  </span>
-                </li>`;
+                <p>${element}</p>
+                <span>
+                  <button class="button-edit" onclick="editItem(${index})"><img src="./icon/edit-svgrepo-com.svg"></img></button>
+                  <button class="button-delete" onclick="deleteItem(${index})"><img src="./icon/delete.svg"></img></button>
+                </span>
+              </li>`;
   });
 
   listToDo.innerHTML = styleList;
