@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&display=swap");
+* {
+  font-family: "Dancing Script", cursive;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: #f7f4f4;
+  padding: 2% 22%;
+}
+
+.header {
+  margin-left: 10px;
+  margin-bottom: 24px;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 48px;
+  color: #7c795d;
+}
+
+.contener-input {
+  display: flex;
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  height: 60px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.contener-input .input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.contener-input .input input {
+  border: none;
+  outline-style: none;
+  padding-left: 18px;
+}
+
+.contener-input .input input ::placeholder {
+  color: #696969;
+}
+
+.contener-input .add-icon {
+  border: none;
+  outline-style: none;
+  background-color: #9b59b6;
+  height: 100%;
+  width: 70px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.contener-input .add-icon img {
+  width: 22px;
+  height: 22px;
+  color: #fff;
+}
+
+.check-input {
+  border: none;
+  outline-style: none;
+  background-color: rgba(75, 174, 79, 50%);
+
+  height: 100%;
+  width: 70px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  display: none;
+}
+
+.check-input img {
+  width: 22px;
+  height: 22px;
+}
+.list-row ul {
+  padding-left: 0;
+}
+
+.list-row ul li {
+  background-color: #fff;
+  height: 60px;
+  margin-bottom: 18px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  padding-left: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  overflow: hidden;
+}
+
+.list-row ul li p {
+  display: inherit;
+  align-items: center;
+}
+.list-row ul li span {
+  margin-right: -120px;
+}
+
+.list-row ul li:hover span {
+  margin-right: 0px;
+  transition: all 0.3s ease;
+}
+
+.list-row ul li button {
+  border: none;
+  outline-style: none;
+  height: 100%;
+  width: 60px;
+  cursor: pointer;
+}
+.list-row ul li .button-edit {
+  background-color: #70a1ff;
+  margin-right: -4px;
+}
+.list-row ul li .button-delete {
+  background-color: #d63031;
+  border-radius: 0 8px 8px 0;
+}
+.list-row ul li button img {
+  width: 22px;
+  height: 22px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.footer button {
+  background-color: #9b59b6;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
