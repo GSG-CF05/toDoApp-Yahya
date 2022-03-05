@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>to do app</title>
+  </head>
+  <body>
+    <div class="header">
+      <h3>Welcome, app to do</h3>
+    </div>
+    <div class="contener-input">
+      <div class="input">
+        <img src="./icon/bars-icon.svg" alt="bars-icon" />
+        <input type="text" placeholder="Add your new to do" size="100" />
+        <input type="hidden" class="saveItem" />
+      </div>
+      <button class="add-icon">
+        <img src="./icon/add-49.svg" alt="add-icon" />
+      </button>
+      <button class="check-input">
+        <img src="./icon/correct.png" alt="correct-icon" />
+      </button>
+    </div>
+
+    <div class="list-row">
+      <ul></ul>
+    </div>
+
+    <div class="footer">
+      <p>You have <span class="pendingNumber">4</span> pending tasks</p>
+      <button>Clear All</button>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
