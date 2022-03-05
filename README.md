@@ -1,8 +1,7 @@
 # toDoApp-Yahya
 
 <!-- HERE (edite) -->
-<!-- ## You can check it out [HERE](https://gsg-cf05.github.io/toDoApp-Yahya/)
- -->
+## You can check it out [HERE](https://gsg-cf05.github.io/toDoApp-Yahya/)
 
 ---
 
